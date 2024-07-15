@@ -1,0 +1,25 @@
+.calculator {
+}
+.calculator__inner {
+	display: inline-flex;
+	flex-direction: column;
+	gap: 2px;
+}
+.calculator__result {
+	border: 1px solid black;
+	padding: 5px;
+	text-align: right;
+}
+.calculator__buttons {
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: repeat(4, 40px);
+	gap: 2px;
+}
+.calculator__button {
+	border: 1px solid black;
+	text-align: center;
+	height: 40px;
+}
